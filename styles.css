@@ -334,6 +334,61 @@ textarea {
   gap: 12px;
 }
 
+.policy-hero {
+  padding-top: 150px;
+  background: var(--panel);
+}
+
+.policy-shell {
+  max-width: 860px;
+}
+
+.policy-shell h1 {
+  margin-bottom: 16px;
+  color: #315d55;
+  font-size: clamp(3rem, 9vw, 6.5rem);
+}
+
+.policy-shell h2 {
+  font-size: clamp(1.45rem, 3vw, 2rem);
+}
+
+.policy-shell p {
+  color: var(--muted);
+  font-size: 1.04rem;
+}
+
+.policy-shell ul {
+  margin: 0 0 18px;
+  padding-left: 24px;
+  color: var(--muted);
+  font-size: 1.04rem;
+}
+
+.policy-shell li + li {
+  margin-top: 8px;
+}
+
+.policy-updated {
+  color: var(--moss-dark);
+  font-weight: 800;
+}
+
+.policy-section {
+  padding-top: 0;
+}
+
+.policy-card {
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+
+.policy-card a,
+.faq a {
+  color: var(--moss-dark);
+  font-weight: 800;
+}
+
 details {
   background: var(--panel);
   border: 1px solid var(--line);
