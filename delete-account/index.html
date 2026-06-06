@@ -44,18 +44,46 @@
           <h1 id="deletion-title">Request Account Deletion for Kahera</h1>
           <p>
             To request deletion of your Kahera account and associated data,
-            email:
-          </p>
-          <p>
-            <a class="support-email" href="mailto:jayarpaln@yahoo.com"
-              >jayarpaln@yahoo.com</a
-            >
+            send a request using the support contact form below.
           </p>
         </div>
       </section>
 
       <section class="section policy-section">
         <div class="section-inner policy-shell">
+          <article class="policy-card">
+            <h2>Send Your Request</h2>
+            <form
+              class="contact-form"
+              action="mailto:jayarpaln@yahoo.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <label>
+                Name
+                <input name="name" type="text" autocomplete="name" required />
+              </label>
+              <label>
+                Account email
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+              <label>
+                Topic
+                <select name="topic">
+                  <option>Account deletion request</option>
+                  <option>Privacy or data request</option>
+                  <option>General support</option>
+                  <option>Subscription help</option>
+                </select>
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="5" required></textarea>
+              </label>
+              <button class="button primary" type="submit">Send request</button>
+            </form>
+          </article>
+
           <article class="policy-card">
             <h2>What to Include</h2>
             <p>
