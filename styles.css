@@ -147,6 +147,15 @@ h1 {
   letter-spacing: 0;
 }
 
+h1 span {
+  display: block;
+  margin-top: 20px;
+  color: var(--ink);
+  font-size: clamp(1.45rem, 3vw, 2.5rem);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
 .hero-copy {
   max-width: 620px;
   margin-bottom: 30px;
@@ -286,6 +295,45 @@ h3 {
 
 .support {
   background: var(--panel);
+}
+
+.partnership {
+  background: #fff4f2;
+}
+
+.partnership-heading {
+  max-width: 800px;
+}
+
+.partnership-heading p:last-child,
+.partnership-note {
+  color: var(--muted);
+  font-size: 1.02rem;
+}
+
+.partnership-poster {
+  display: block;
+  overflow: hidden;
+  background: var(--panel);
+  border: 1px solid rgba(255, 67, 59, 0.22);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.partnership-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.partnership-poster:focus-visible {
+  outline: 4px solid var(--moss);
+  outline-offset: 4px;
+}
+
+.partnership-note {
+  max-width: 820px;
+  margin: 18px 0 0;
 }
 
 .support-email {
